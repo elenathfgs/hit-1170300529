@@ -3,6 +3,7 @@
 ## Introduction
   This project is based on the HIT software construction course Lab3
   Orbit system simulator is a open source project aimed for simulating any orbit system including stellar system, atom structure, social network circle and so on.The project hasn't completed yet and still on its beta version.
+
   Until now, the program can stimulate the stellar system, atom structure, social network circle, if you have some new idea, be free to add to it.
 
 
