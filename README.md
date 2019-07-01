@@ -9,6 +9,10 @@
   Orbit system simulator is a open source project aimed for simulating any orbit system including stellar system, atom structure, social network circle and so on.The project hasn't completed yet and still on its beta version.
 
   Until now, the program can stimulate the stellar system, atom structure, social network circle, if you have some new idea, be free to add to it.
+  
+<h1 align="center">
+  <a href="https://github.com/elenathFGS/hit-1170300529"><img src="https://github.com/elenathFGS/hit-1170300529/blob/master/doc/orbit.png" alt="OpenCTI"></a>
+</h1>
 
 ## Objective
 
