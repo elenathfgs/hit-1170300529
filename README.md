@@ -20,11 +20,12 @@
 
 ## Quick start
 
-  The UI has not been completed yet and if you want to start the program, you need to use a java JDK to build it.And the menu is on the console, once you had built it, click run and the all the available operation on the console.Chose the operation that you want to change the orbit system.
+  * The UI has not been completed yet and if you want to start the program, you need to use a java JDK to build it.
+  * the menu is on the console, once you had built it, click run and the all the available operation on the console.Chose the operation that you want to change the orbit system.
 
-  If you want to read the orbit system, use the readFromFile operation, the file waiting to be read will be in the 'input' folder, you can choose the file by changing the code in the application.java or you can just write a new txt input file.
+  * If you want to read the orbit system, use the readFromFile operation, the file waiting to be read will be in the 'input' folder, you can choose the file by changing the code in the application.java or you can just write a new txt input file.
 
-  The program has offered a simple visualization tool which you can choose it in the menu, use the visualization to help you see the structure of the orbit system. 
+  * The program has offered a simple visualization tool which you can choose it in the menu, use the visualization to help you see the structure of the orbit system. 
 
 ## File structure
 
