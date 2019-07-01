@@ -1,6 +1,3 @@
-<h1 align="center">
-  <a href="https://www.elenathfgs.github.io"><img src="https://github.com/elenathFGS/hit-1170300529/blob/master/doc/orbit.png"></a>
-</h1>
 
 ## Introduction
 this project is based on the HIT software construction course Lab
