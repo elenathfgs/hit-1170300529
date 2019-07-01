@@ -1,0 +1,1 @@
+ElementName ::= ErNumberOfTracks ::= 6NumberOfElectron ::= 1/2;2/8;3/18;4/30;5/8;6/2

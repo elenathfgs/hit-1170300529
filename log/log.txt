@@ -1,0 +1,4 @@
+7月 01, 2019 11:06:24 上午 logger.MyLogger init
+信息: 日志系统初始化完成
+7月 01, 2019 11:06:25 上午 applications.Actions chooseSystem
+信息: user选择了行星系统
