@@ -14,8 +14,9 @@ public class StellarSystemTest {
   StellarSystem stellarSystem = new StellarSystem();
   Stellar sun = new Stellar("sun", 6.96392e5, 1.9885e30);
   Planet earth = new Planet("Earth", "Solid", "Blue", 6378.137, 0, 29.783, true);
-  //Planet ::= <Earth,Solid,Blue,6378.137,1.49e8,29.783,CW,0>
+  //Planet ::= <Earth,Solid,Blue,6378.137,1.49e8,29.783,CW,0
   Planet earth2 = new Planet("Earth2", "Solid", "Blue", 6378.137, 180, 29.783, true);
+  Planet earth3 = new Planet("Earth3", "Solid", "Blue", 57867, 180, 29.76, true);
   Track earthTrack = new Track(1.49e8);
 
   @Test
@@ -27,7 +28,16 @@ public class StellarSystemTest {
     System.out.println(stellarSystem.objIterator().next().getAngle());
     assertTrue(stellarSystem.objIterator().next().getAngle() == 20);
   }
-
+  
+  @Test
+  public void testAddAndDelete() {
+    stellarSystem.addObject(earth);
+    stellarSystem.addObject(earth3);
+    assertTrue(stellarSystem.getObjNum(), 2);
+    stellarSystem.deleteObject(earth3);
+    assertTrue(stellarSystem.getObjNum(), 3);
+  }
+  
   @Test
   public void testMoveByTime() throws SameLabelException {
     stellarSystem.setCentralObject(sun);
