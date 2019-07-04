@@ -5,6 +5,9 @@ import static org.junit.Assert.assertTrue;
 import centralobject.Stellar;
 import circularorbit.StellarSystem;
 import exceptions.SameLabelException;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 import org.junit.jupiter.api.Test;
 
 import physicalobject.Planet;
@@ -31,11 +34,21 @@ public class StellarSystemTest {
   
   @Test
   public void testAddAndDelete() {
-    stellarSystem.addObject(earth);
-    stellarSystem.addObject(earth3);
-    assertTrue(stellarSystem.getObjNum(), 2);
+    try {
+      stellarSystem.addObject(earth);
+    } catch (SameLabelException e) {
+      // TODO Auto-generated catch block
+      e.printStackTrace();
+    }
+    try {
+      stellarSystem.addObject(earth3);
+    } catch (SameLabelException e) {
+      // TODO Auto-generated catch block
+      e.printStackTrace();
+    }
+    assertEquals(stellarSystem.getObjNum(), 2);
     stellarSystem.deleteObject(earth3);
-    assertTrue(stellarSystem.getObjNum(), 3);
+    assertEquals(stellarSystem.getObjNum(), 3);
   }
   
   @Test
