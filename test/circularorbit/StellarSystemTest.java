@@ -48,7 +48,7 @@ public class StellarSystemTest {
     }
     assertEquals(stellarSystem.getObjNum(), 2);
     stellarSystem.deleteObject(earth3);
-    assertEquals(stellarSystem.getObjNum(), 3);
+    assertEquals(stellarSystem.getObjNum(), 1);
   }
   
   @Test
