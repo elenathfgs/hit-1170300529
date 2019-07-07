@@ -18,7 +18,7 @@ public class LabelException extends Exception {
    * @param label the input label
    */
   public LabelException(String label) {
-    if (label.isBlank()) {
+    if (label == null || label.isEmpty()) {
       printStringBuffer.append("输入的label不能为空");
     } else {
       printStringBuffer.append("输入为" + label + ":");
