@@ -20,7 +20,7 @@ public class CloseNumException extends Exception {
    */
   public CloseNumException(String number) {
     // TODO Auto-generated constructor stub
-    if (number.isEmpty()) {
+    if (number == null || number.isEmpty()) {
       printStringBuffer.append("读入的亲密度为空");
     } else {
       printStringBuffer.append("输入为" + number);
